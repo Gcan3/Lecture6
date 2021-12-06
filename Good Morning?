@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main() 
+{
+	int currentTime = 3;
+	if (currentTime > 12) {
+		cout << "It's PM" << endl;
+	}
+	else {
+		cout << "It's AM" << endl;
+	}
+
+	cin.get();
+	return 0;
+}
