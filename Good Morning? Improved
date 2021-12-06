@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main() 
+{
+	int currentTime = 3;
+	if (currentTime < 12) {
+		cout << "Good Morning" << endl;
+	}
+	else if (currentTime >= 12 || currentTime < 18)
+	{
+		cout << "Good Afternoon" << endl;
+	}
+	else if (currentTime >= 18 || currentTime < 21)
+	{
+		cout << "Good Evening" << endl;
+	}
+	else if (currentTime >= 21 || currentTime < 24)
+	{
+		cout << "Good Night" << endl;
+	}
+	else 
+	{
+		cout << "Invalid time" << endl;
+	}
+
+	cin.get();
+	return 0;
+}
